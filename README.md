@@ -24,5 +24,7 @@ hashcat.exe -m 22000 hash.hc22000 -a 3 ?d?d?d?d?d?d?d?d
 hashcat.exe -m 22000 hash.hc22000 -a 3 --increment --increment-min 8 --increment-max 18 ?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d
 
 Usefull repositories for routers with default passwords.
+
 https://github.com/sheimo/Wifi-WPA-Keyspace-List
+
 https://github.com/n0kovo/ssid-keyspace-table

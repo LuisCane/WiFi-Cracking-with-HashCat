@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=Usw0IlGbkC4&t=915s
 sudo systemctl stop NetworkManager.service
 sudo systemctl stop wpa_supplicant.service
 
-sudo hcxdumptool -i wlan0 -o dumpfile.pcapng --active_beacon --enable_status=15 
+sudo hcxdumptool -i wlan0 -o dumpfile.pcapng --active_beacon --enable_status=1
 
 sudo systemctl start wpa_supplicant.service
 sudo systemctl start NetworkManager.service

@@ -60,3 +60,7 @@ Usefull repositories for routers with default passwords.
 https://github.com/sheimo/Wifi-WPA-Keyspace-List
 
 https://github.com/n0kovo/ssid-keyspace-table
+
+https://github.com/soxrok2212/PSKracker/blob/master/keyspace.md
+
+https://github.com/berzerk0/Probable-Wordlists

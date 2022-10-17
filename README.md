@@ -36,6 +36,7 @@ sudo hcxdumptool --do_rcascan -i [wifi interface]
 hashcat -m 22000 hash.hc22000 wordlist.txt
 ```
 ### Run Hashcat with Brute Force
+?d digits, ?l lower, ?u upper, ?s special, ?a all
 ```
 hashcat -m 22000 hash.hc22000 -a 3 ?d?d?d?d?d?d?d?d
 

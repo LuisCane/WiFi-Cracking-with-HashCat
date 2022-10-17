@@ -1,8 +1,7 @@
 # WiFi-Cracking-with-HashCat
 Cat: Security
 
-Hashcat wifi cracking from David Bombal's video
-
+### "WiFi WPA/WPA2 vs hashcat and hcxdumptool" by David Bombal
 https://www.youtube.com/watch?v=Usw0IlGbkC4&t=915s
 
 ## COMMANDS

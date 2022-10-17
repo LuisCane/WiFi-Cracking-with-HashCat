@@ -13,7 +13,7 @@ sudo systemctl stop NetworkManager && sudo systemctl stop wpa_supplicant
 
 ### Run hcxdumptool to capture WLAN information
 ```
-sudo hcxdumptool -i wlan0 -o dumpfile.pcapng --active_beacon --enable_status=1
+sudo hcxdumptool -i [wifi interface] -o dumpfile.pcapng --active_beacon --enable_status=1
 ```
 
 ### Restart Network Manager and WPA Supplicant Services
@@ -28,7 +28,7 @@ hcxpcapngtool -o hash.hc22000 -E essidlist dumpfile.pcapng
 
 ### Capture MAC addresses
 ```
-hcxdumptool --do_rcascan -i wlan0
+sudo hcxdumptool --do_rcascan -i [wifi interface]
 ```
 
 ### Run Hashcat with a wordlist

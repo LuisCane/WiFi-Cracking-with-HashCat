@@ -2,7 +2,10 @@
 Cat: Security
 
 ### "WiFi WPA/WPA2 vs hashcat and hcxdumptool" by David Bombal
-https://www.youtube.com/watch?v=Usw0IlGbkC4&t=915s
+https://www.youtube.com/watch?v=Usw0IlGbkC4
+
+### "16 secs to break it! 😱 70% of real world WiFi networks owned!" by David Bombal
+https://www.youtube.com/watch?v=ZTIB9Ki9VtY
 
 ## COMMANDS
 
